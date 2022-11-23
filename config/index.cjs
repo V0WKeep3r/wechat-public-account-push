@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLS0b6w992EWmZ8CG-KhRJleDLBo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Lyrj8Eml_4eFrYLqE486MXrjtEIU1DA-Inj_xLSuQ7M',
+      useTemplateId: 'd0CY2jHUb-cbCEYtmZrdHv2trg71--cMt-iHH7o7dA8',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-19',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
