@@ -53,7 +53,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLS0b6w992EWmZ8CG-KhRJleDLBo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4jmqN_qafI5MNoQFLbwe6gYw6oYqc6pDI41oPtEll20',
+      useTemplateId: 'Lyrj8Eml_4eFrYLqE486MXrjtEIU1DA-Inj_xLSuQ7M',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-19',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -61,7 +61,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '娜娜', year: '1995', date: '10-28',
+          type: '*生日', name: '娜娜农历', year: '1995', date: '10-28',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
