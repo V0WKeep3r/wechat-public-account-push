@@ -15,6 +15,36 @@ const USER_CONFIG = {
 
   PROVINCE: '江苏',
   CITY: '南京',
+  
+  IS_SHOW_COLOR: true,
+  
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: true,
+    
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+  },
 
   USERS: [
     {
@@ -24,17 +54,19 @@ const USER_CONFIG = {
       id: 'oLS0b6w992EWmZ8CG-KhRJleDLBo',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0RZmUOifa4ZlG8n4JtvOwxx2zPHKpCW-BJJg2O2Jsqs',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '12-19',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '娜娜', year: '1995', date: '10-28',
         },
-//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {
-//           type: '生日', name: '娜娜', year: '1996', date: '09-31',
-//         },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '娜娜阳历', year: '1995', date: '12-19',
+        },
 //         {
 //           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
 //         },
