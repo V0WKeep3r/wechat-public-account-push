@@ -16,35 +16,6 @@ const USER_CONFIG = {
   PROVINCE: '江苏',
   CITY: '南京',
   
-  IS_SHOW_COLOR: true,
-  
-  SWITCH: {
-    /** 每日天气 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: true,
-
-    /** 节假日 */
-    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: true,
-
-    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
-    
-    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
-    
-    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
-    
-    /** 星座运势 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
-  
-    /** 生日消息和节日消息 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: true,
-  
-  },
 
   USERS: [
     {
